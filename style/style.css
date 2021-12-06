@@ -1,2 +1,349 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&display=swap");
+main {
+  width: 100%;
+  background-color: #9789f9;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section {
+  background-color: #f5f4f9;
+  margin: 0rem 1rem;
+}
+
+main .ul {
+  background-image: url(../images/white-fon.png);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  max-height: 610px;
+  width: 18%;
+  padding: 1rem 4rem 4rem 4rem;
+}
+
+main .ul--price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .ul--price h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+main .ul--price h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+main .ul--price h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main .ul--price h4 {
+  position: relative;
+  top: 2.5rem;
+}
+
+main .ul h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 0rem;
+}
+
+main .ul object {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5rem auto 3rem auto;
+}
+
+main .ul p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 53px;
+  font-weight: 300;
+  color: #181818;
+}
+
+main .ul--last {
+  margin-bottom: 0.5rem;
+}
+
+main .ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Bebas Neue";
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  max-width: 200px;
+  background-color: #6fcffb;
+  margin: 0rem auto;
+  position: relative;
+  top: 1.8rem;
+}
+
+main .ul a:hover {
+  background-color: #91cce7;
+}
+
+main .webdesign {
+  background-image: url(../images/white-fon-2.png);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  max-height: 690px;
+  width: 21%;
+  padding: 2rem 4rem 4rem 4rem;
+  position: relative;
+}
+
+main .webdesign--bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 1;
+  position: absolute;
+  left: 19rem;
+  top: 0rem;
+}
+
+main .webdesign--bubble object {
+  margin: 0rem !important;
+}
+
+main .webdesign--bubble:hover .popular {
+  opacity: 1;
+}
+
+main .webdesign--bubble .popular {
+  opacity: 0;
+}
+
+main .webdesign--price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .webdesign--price h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+main .webdesign--price h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+main .webdesign--price h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main .webdesign--price h4 {
+  position: relative;
+  top: 2.5rem;
+}
+
+main .webdesign h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 0rem;
+}
+
+main .webdesign object {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 6rem auto 1rem auto;
+}
+
+main .webdesign p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 53px;
+  font-weight: 300;
+  color: #181818;
+}
+
+main .webdesign--last {
+  margin-bottom: 2rem;
+}
+
+main .webdesign a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Bebas Neue";
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  max-width: 200px;
+  background-color: #fd8d7b;
+  margin: 0rem auto;
+}
+
+main .webdesign a:hover {
+  background-color: #eeada3;
+}
+
+main .webdesign h5 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 11px;
+  font-weight: 300;
+  color: #a9a9a9;
+}
+
+main .development {
+  background-image: url(../images/white-fon.png);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  max-height: 610px;
+  width: 18%;
+  padding: 1rem 4rem 4rem 4rem;
+}
+
+main .development--price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .development--price h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+main .development--price h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+main .development--price h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main .development--price h4 {
+  position: relative;
+  top: 2.5rem;
+}
+
+main .development h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 0rem;
+}
+
+main .development object {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5rem auto 3rem auto;
+}
+
+main .development p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 53px;
+  font-weight: 300;
+  color: #181818;
+}
+
+main .development--last {
+  margin-bottom: 0.5rem;
+}
+
+main .development a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Bebas Neue";
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  max-width: 200px;
+  background-color: #6fcffb;
+  margin: 0.5rem auto 0rem auto;
+  position: relative;
+  top: 1.8rem;
+}
+
+main .development a:hover {
+  background-color: #91cce7;
+}
 /*# sourceMappingURL=style.css.map */

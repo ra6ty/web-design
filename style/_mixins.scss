@@ -1,6 +1,5 @@
   @mixin backgroundImage {
-    background-size: cover;
-    background-position: center;
+    background-position: 50% 70%;
     background-repeat: no-repeat;
   }
   
@@ -31,7 +30,6 @@
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 4rem;
     text-align: center;
   }
   
@@ -45,14 +43,14 @@
   
   @mixin a {
     display: flex;
-    position: relative;
     text-decoration: none;
     justify-content: center;
     font-family: "Bebas Neue";
+    letter-spacing: 0.08em;
     font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-weight: 400;
     color: #ffffff;
     border-radius: 25px;
-    padding: 8%;
+    padding: 1rem 2rem;
+    max-width: 200px;
   }
