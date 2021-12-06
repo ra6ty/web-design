@@ -152,13 +152,203 @@ main {
 }
 
 // / Landscape - телефоны /
-@media (max-width: 479px) {}
+@media (max-width: 479px) {
+  & main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    & .ul {
+      width: 100%;
+      margin-bottom: 3rem;
+      padding: 1rem 3rem 4rem 3rem;
+      & a {
+        width: 250px!important;
+      }
+    }
+    & .webdesign {
+      width: 100%;
+      position: relative;
+      margin-bottom: 3rem;
+      padding: 1rem 3rem 4rem 3rem;
+      &--bubble {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+      }
+      & object {
+        display: flex;
+        margin: 7rem auto 1rem auto;
+      }
+      & a {
+        width: 250px!important;
+      }
+    }
+    & .development {
+      width: 100%;
+      margin-bottom: 3rem;
+      padding: 1rem 3rem 4rem 3rem;
+      & a {
+        width: 250px!important;
+      }
+    }
+  }
+}
 
 //   / От ландшафтного экрана телефона до потретного планшета /
-@media (min-width: 480px) and (max-width: 767px) {}
+@media (min-width: 480px) and (max-width: 767px) {
+  & main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    & .ul {
+      width: 100%;
+      margin-bottom: 3rem;
+      padding: 1rem 3rem 4rem 3rem;
+      background-size: 100% 60%;
+      & a {
+        width: 250px!important;
+      }
+    }
+    & .webdesign {
+      width: 100%;
+      position: relative;
+      margin-bottom: 3rem;
+      padding: 1rem 3rem 4rem 3rem;
+      background-size: 100% 60%;
+      &--bubble {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+      }
+      & object {
+        display: flex;
+        margin: 7rem auto 1rem auto;
+      }
+      & a {
+        width: 250px!important;
+      }
+    }
+    & .development {
+      width: 100%;
+      margin-bottom: 3rem;
+      padding: 1rem 3rem 4rem 3rem;
+      background-size: 100% 60%;
+      & a {
+        width: 250px!important;
+      }
+    }
+  }
+}
 
 //   / От портретного планшета до ландшафтного экрана и настольных дисплеев /
-@media (min-width: 768px) and (max-width: 979px) {}
+@media (min-width: 768px) and ( max-width: 1024px) {
+  & main {
+    display: flex;
+    width: 100%;
+    & section {
+      margin: 0rem .5rem;
+    }
+    & .ul {
+      width: 32%;
+      margin-bottom: 3rem;
+      padding: 1rem 2rem 4rem 1rem;
+      & a {
+        width: 250px!important;
+      }
+    }
+    & .webdesign {
+      width: 34%;
+      position: relative;
+      margin-bottom: 3rem;
+      padding: 1rem 2rem 4rem 1rem;
+      &--bubble {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+      }
+      & object {
+        display: flex;
+        margin: 7rem auto 1rem auto;
+      }
+      & a {
+        width: 250px!important;
+      }
+    }
+    & .development {
+      width: 34%;
+      margin-bottom: 3rem;
+      padding: 1rem 2rem 4rem 1rem;
+      & a {
+        width: 250px!important;
+      }
+    }
+  }
+}
 
 //   / Большой дисплей /
-@media (min-width: 980px) and (max-width: 1200px) {}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  & main {
+    display: flex;
+    width: 100%;
+    & section {
+      margin: 0rem .5rem;
+      background-size: 100% 60%;
+    }
+    & .ul {
+      width: 32%;
+      margin-bottom: 3rem;
+      padding: 1rem 1rem 4rem 1rem;
+      & a {
+        margin-top: .8rem;
+        width: 250px!important;
+      }
+    }
+    & .webdesign {
+      width: 34%;
+      position: relative;
+      margin-bottom: 3rem;
+      padding: 1rem 2rem 4rem 1rem;
+      &--bubble {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+      }
+      & object {
+        display: flex;
+        margin: 7rem auto 1rem auto;
+      }
+      & a {
+        margin-top: 2rem;
+        width: 250px!important;
+      }
+    }
+    & .development {
+      width: 34%;
+      margin-bottom: 3rem;
+      padding: 1rem 2rem 4rem 1rem;
+      & a {
+        width: 250px!important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  & main {
+    padding: 2%;
+    & section {
+      margin: 0rem .5rem;
+      background-size: 100% 60%;
+      & p {
+        font-size: 24px!important
+      }
+      & .webdesign {
+        &--bubble {
+          position: absolute;
+          top: 0rem;
+          left: 0rem;
+        }
+      }
+    }
+  }
+}
