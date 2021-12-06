@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&display=swap");
+body {
+  background-color: #9789f9;
+}
+
 main {
   width: 100%;
-  background-color: #9789f9;
+  max-width: 1250px;
   padding: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,6 +16,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 auto;
 }
 
 main section {
@@ -140,7 +145,7 @@ main .webdesign--bubble {
 }
 
 main .webdesign--bubble object {
-  margin: 0rem !important;
+  margin: 0rem;
 }
 
 main .webdesign--bubble:hover .popular {
@@ -364,7 +369,7 @@ main .development a:hover {
     padding: 1rem 3rem 4rem 3rem;
   }
   main .ul a {
-    width: 250px !important;
+    width: 250px;
   }
   main .webdesign {
     width: 100%;
@@ -381,10 +386,11 @@ main .development a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 7rem auto 1rem auto;
+    margin: 0 auto 1rem auto;
   }
   main .webdesign a {
-    width: 250px !important;
+    width: 250px;
+    margin-top: 8.5rem;
   }
   main .development {
     width: 100%;
@@ -392,11 +398,11 @@ main .development a:hover {
     padding: 1rem 3rem 4rem 3rem;
   }
   main .development a {
-    width: 250px !important;
+    width: 250px;
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767.9999px) {
   main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -405,7 +411,8 @@ main .development a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
   }
   main .ul {
     width: 100%;
@@ -414,7 +421,7 @@ main .development a:hover {
     background-size: 100% 60%;
   }
   main .ul a {
-    width: 250px !important;
+    width: 250px;
   }
   main .webdesign {
     width: 100%;
@@ -428,6 +435,9 @@ main .development a:hover {
     top: 0rem;
     left: 0rem;
   }
+  main .webdesign--bubble object {
+    margin: 0 !important;
+  }
   main .webdesign object {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -435,7 +445,7 @@ main .development a:hover {
     margin: 7rem auto 1rem auto;
   }
   main .webdesign a {
-    width: 250px !important;
+    width: 250px;
   }
   main .development {
     width: 100%;
@@ -444,7 +454,7 @@ main .development a:hover {
     background-size: 100% 60%;
   }
   main .development a {
-    width: 250px !important;
+    width: 250px;
   }
 }
 
@@ -464,7 +474,7 @@ main .development a:hover {
     padding: 1rem 2rem 4rem 1rem;
   }
   main .ul a {
-    width: 250px !important;
+    width: 250px;
   }
   main .webdesign {
     width: 34%;
@@ -477,14 +487,18 @@ main .development a:hover {
     top: 0rem;
     left: 0rem;
   }
+  main .webdesign--bubble object {
+    margin: 0 !important;
+  }
   main .webdesign object {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 7rem auto 1rem auto;
+    margin: 6 auto 1rem auto;
   }
   main .webdesign a {
-    width: 250px !important;
+    width: 250px;
+    margin-top: 3.5rem;
   }
   main .development {
     width: 34%;
@@ -492,7 +506,7 @@ main .development a:hover {
     padding: 1rem 2rem 4rem 1rem;
   }
   main .development a {
-    width: 250px !important;
+    width: 250px;
   }
 }
 
@@ -514,7 +528,7 @@ main .development a:hover {
   }
   main .ul a {
     margin-top: .8rem;
-    width: 250px !important;
+    width: 250px;
   }
   main .webdesign {
     width: 34%;
@@ -527,6 +541,9 @@ main .development a:hover {
     top: 0rem;
     left: 0rem;
   }
+  main .webdesign--bubble object {
+    margin: 0 !important;
+  }
   main .webdesign object {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -535,7 +552,7 @@ main .development a:hover {
   }
   main .webdesign a {
     margin-top: 2rem;
-    width: 250px !important;
+    width: 250px;
   }
   main .development {
     width: 34%;
@@ -543,7 +560,61 @@ main .development a:hover {
     padding: 1rem 2rem 4rem 1rem;
   }
   main .development a {
-    width: 250px !important;
+    width: 250px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2580px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  main section {
+    margin: 0rem .5rem;
+    background-size: 100% 60%;
+  }
+  main .ul {
+    width: 32%;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem 4rem 1rem;
+  }
+  main .ul a {
+    margin-top: .8rem;
+    width: 250px;
+  }
+  main .webdesign {
+    width: 34%;
+    position: relative;
+    margin-bottom: 3rem;
+    padding: 2rem 2rem 4rem 1rem;
+  }
+  main .webdesign--bubble {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+  }
+  main .webdesign--bubble object {
+    margin: 0 !important;
+  }
+  main .webdesign object {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5rem auto 1rem auto;
+  }
+  main .webdesign a {
+    margin-top: 3rem;
+    width: 250px;
+  }
+  main .development {
+    width: 34%;
+    margin-bottom: 3rem;
+    padding: 1rem 2rem 4rem 1rem;
+  }
+  main .development a {
+    width: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */
