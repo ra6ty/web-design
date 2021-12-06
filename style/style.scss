@@ -332,23 +332,3 @@ main {
     }
   }
 }
-
-@media (min-width: 1441px) and (max-width: 2560px) {
-  & main {
-    padding: 2%;
-    & section {
-      margin: 0rem .5rem;
-      background-size: 100% 60%;
-      & p {
-        font-size: 24px!important
-      }
-      & .webdesign {
-        &--bubble {
-          position: absolute;
-          top: 0rem;
-          left: 0rem;
-        }
-      }
-    }
-  }
-}
