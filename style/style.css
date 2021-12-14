@@ -386,11 +386,14 @@ main .development a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 auto 1rem auto;
+    margin: 0rem auto 0rem auto;
+  }
+  main .webdesign .object1 {
+    margin-top: 5.5rem;
   }
   main .webdesign a {
     width: 250px;
-    margin-top: 8.5rem;
+    margin-top: 4.5rem;
   }
   main .development {
     width: 100%;
